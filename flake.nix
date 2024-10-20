@@ -9,7 +9,7 @@
 
   outputs = { self, nixpkgs, keystone-flake }@inputs: {
     # Please replace my-nixos with your hostname
-    nixosConfigurations.my-nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       system = "aarch64-linux";
       modules = [
         # Import the previous configuration.nix we used,
