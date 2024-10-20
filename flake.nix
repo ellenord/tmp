@@ -19,9 +19,5 @@
     };
   };
 
-  # Пакеты, которые должны быть установлены на системе
-  environment.systemPackages = with pkgs; [
-    keystone-flake.packages.default
-  ];
 }
 
